@@ -1,0 +1,101 @@
+encounter_id,patient_id,provider_id,visit_date,visit_type,department,reason_for_visit,diagnosis_code,admission_type,discharge_date,length_of_stay,status,readmitted_flag
+ENC017535,PAT000001,PRO00865,03-01-2025,Outpatient,Obstetrics & Gynecology,Irregular Menstruation,N92.6,,,,Completed,Yes
+ENC030367,PAT000001,PRO00579,30-03-2025,Telehealth,Gastroenterology,IBS,K58.9,,,,Completed,Yes
+ENC038533,PAT000002,PRO01227,26-02-2025,Inpatients,Dermatology,Acne,L70.9,,01-03-2025,3.0,Completed,No
+ENC056041,PAT000003,PRO00055,27-01-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC046849,PAT000004,PRO00043,26-01-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC055633,PAT000004,PRO01413,07-02-2025,Outpatient,Infectious Disease,HIV Follow-up,B20,,,,Completed,No
+ENC064359,PAT000005,PRO01367,14-03-2025,Outpatient,Infectious Disease,HIV Follow-up,B20,,,,Completed,Yes
+ENC015555,PAT000006,PRO00861,11-01-2025,Inpatients,Obstetrics & Gynecology,Pelvic Pain,R10.2,Maternity,14-01-2025,3.0,Completed,No
+ENC048926,PAT000007,PRO00696,05-02-2025,Outpatient,Nephrology,CKD,N18.9,,,,Completed,No
+ENC069514,PAT000007,PRO00025,29-03-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC028152,PAT000008,PRO00484,12-02-2025,Inpatients,Orthopedics,Osteoarthritis,M19.90,,15-02-2025,3.0,Completed,No
+ENC042348,PAT000009,PRO00411,21-01-2025,Outpatient,Neurology,Neuropathy,G62.9,,,,Completed,No
+ENC002042,PAT000010,PRO00535,13-02-2025,Outpatient,General Surgery,Hernia Consult,K40.20,,,,Completed,No
+ENC051100,PAT000011,PRO00018,22-01-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC011350,PAT000012,PRO00863,10-02-2025,Outpatient,Obstetrics & Gynecology,Prenatal Visit,Z34.80,,,,Completed,No
+ENC012714,PAT000013,PRO01447,03-02-2025,Inpatients,Psychiatry / Behavioral Health,Insomnia,G47.00,Trauma,06-02-2025,3.0,Completed,No
+ENC018287,PAT000014,PRO01193,19-02-2025,Inpatients,Urology,BPH,N40.0,,22-02-2025,3.0,Completed,No
+ENC000609,PAT000015,PRO00784,26-02-2025,Inpatients,Pediatrics,Fever,R50.9,Newborn,01-03-2025,3.0,Completed,No
+ENC031730,PAT000016,PRO00596,18-03-2025,Outpatient,Gastroenterology,IBS,K58.9,,,,Completed,No
+ENC066055,PAT000016,PRO01323,23-01-2025,Outpatient,ENT (Otolaryngology),Tinnitus,H93.19,,,,Completed,Yes
+ENC067209,PAT000017,PRO00075,07-03-2025,Outpatient,Internal Medicine,Diabetes Follow-up,E11.9,,,,Completed,No
+ENC029911,PAT000018,PRO00911,11-02-2025,Inpatients,Obstetrics & Gynecology,Prenatal Visit,Z34.80,Maternity,14-02-2025,3.0,Completed,No
+ENC058768,PAT000018,PRO00235,30-03-2025,Outpatient,Cardiology,Angina,I20.9,,,,Completed,No
+ENC040526,PAT000019,PRO00772,02-02-2025,Inpatients,Oncology,Lung Cancer,C34.90,,05-02-2025,3.0,Completed,No
+ENC045876,PAT000020,PRO00777,21-01-2025,Outpatient,Oncology,Chemo Visit,Z51.11,,,,Completed,Yes
+ENC015380,PAT000021,PRO00453,10-02-2025,Inpatients,Orthopedics,Fractured Wrist,S52.501A,,13-02-2025,3.0,Completed,No
+ENC006777,PAT000022,PRO00789,01-03-2025,Outpatient,Pediatrics,Routine Checkup,Z00.129,,,,Completed,No
+ENC039149,PAT000023,PRO00021,23-01-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC039906,PAT000023,PRO00021,13-01-2025,Emergency,Emergency Department,Sudden Breathing Issue,R06.02,Emergency,,,Completed,No
+ENC033595,PAT000024,PRO00861,01-01-2025,Inpatients,Obstetrics & Gynecology,Prenatal Visit,Z34.80,Maternity,03-01-2025,2.0,Completed,Yes
+ENC043041,PAT000024,PRO01425,04-02-2025,Inpatients,Psychiatry / Behavioral Health,Anxiety,F41.9,Trauma,07-02-2025,3.0,Completed,No
+ENC043617,PAT000025,PRO01153,18-01-2025,Outpatient,Urology,BPH,N40.0,,,,Completed,No
+ENC042182,PAT000026,PRO01454,14-03-2025,Inpatients,Psychiatry / Behavioral Health,Anxiety,F41.9,Trauma,17-03-2025,3.0,Completed,No
+ENC061043,PAT000027,PRO00064,24-02-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC034193,PAT000028,PRO00016,07-01-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC005166,PAT000029,PRO00607,03-01-2025,Inpatients,Gastroenterology,IBS,K58.9,,05-01-2025,2.0,Completed,No
+ENC044809,PAT000030,PRO00852,17-02-2025,Inpatients,Pediatrics,Routine Checkup,Z00.129,Newborn,20-02-2025,3.0,Completed,Yes
+ENC018235,PAT000031,PRO00127,31-01-2025,Inpatients,Internal Medicine,Hypertension Management,I10,,02-02-2025,2.0,Completed,No
+ENC046610,PAT000032,PRO00681,06-01-2025,Telehealth,Nephrology,CKD,N18.9,,,,Completed,No
+ENC016539,PAT000033,PRO00018,25-01-2025,Emergency,Emergency Department,Sudden Breathing Issue,R06.02,Emergency,,,Completed,No
+ENC024875,PAT000034,PRO00599,16-03-2025,Outpatient,Gastroenterology,IBS,K58.9,,,,Completed,No
+ENC006314,PAT000035,PRO00142,12-01-2025,Inpatients,Internal Medicine,Diabetes Follow-up,E11.9,,15-01-2025,3.0,Completed,No
+ENC066581,PAT000035,PRO00047,05-03-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC018341,PAT000036,PRO01200,09-01-2025,Inpatients,Urology,UTI,N39.0,,12-01-2025,3.0,Completed,No
+ENC069845,PAT000037,PRO01016,02-02-2025,Outpatient,Radiology / Imaging,X-Ray,Z01.818,,,,Completed,Yes
+ENC026577,PAT000038,PRO00473,12-02-2025,Outpatient,Orthopedics,Knee Pain,M25.561,,,,Completed,No
+ENC044578,PAT000038,PRO00883,15-02-2025,Telehealth,Obstetrics & Gynecology,Pelvic Pain,R10.2,,,,Completed,No
+ENC040770,PAT000039,PRO00581,23-02-2025,Inpatients,Gastroenterology,IBS,K58.9,,25-02-2025,2.0,Completed,No
+ENC040766,PAT000040,PRO00855,01-02-2025,Outpatient,Obstetrics & Gynecology,Pelvic Pain,R10.2,,,,Completed,No
+ENC048377,PAT000041,PRO00626,02-01-2025,Outpatient,Gastroenterology,IBS,K58.9,,,,Completed,No
+ENC016289,PAT000042,PRO00500,13-02-2025,Inpatients,General Surgery,Hernia Consult,K40.20,Elective,15-02-2025,2.0,Completed,Yes
+ENC021381,PAT000043,PRO01260,14-02-2025,Inpatients,Dermatology,Rash,R21,,17-02-2025,3.0,Completed,No
+ENC049154,PAT000044,PRO00626,03-01-2025,Inpatients,Gastroenterology,GERD,K21.9,,05-01-2025,2.0,Completed,Yes
+ENC024657,PAT000045,PRO00897,13-01-2025,Inpatients,Obstetrics & Gynecology,Irregular Menstruation,N92.6,Maternity,16-01-2025,3.0,Completed,No
+ENC060308,PAT000046,PRO01157,14-02-2025,Outpatient,Urology,Kidney Stone,N20.0,,,,Completed,No
+ENC062703,PAT000046,PRO01271,31-03-2025,Inpatients,Dermatology,Acne,L70.9,,02-04-2025,2.0,Completed,No
+ENC017163,PAT000047,PRO00497,14-02-2025,Outpatient,Orthopedics,Osteoarthritis,M19.90,,,,Completed,No
+ENC013176,PAT000048,PRO00067,06-03-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC056434,PAT000049,PRO00049,22-02-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC067873,PAT000050,PRO01086,18-02-2025,Inpatients,Pathology / Lab Services,Abnormal Labs,R79.9,,21-02-2025,3.0,Completed,No
+ENC019562,PAT000051,PRO00778,19-02-2025,Outpatient,Oncology,Chemo Visit,Z51.11,,,,Completed,Yes
+ENC011080,PAT000052,PRO01214,11-02-2025,Inpatients,Dermatology,Psoriasis,L40.0,,14-02-2025,3.0,Completed,No
+ENC031670,PAT000053,PRO00296,04-02-2025,Inpatients,Pulmonology,Chronic Cough,R05,,06-02-2025,2.0,Completed,No
+ENC039846,PAT000054,PRO00854,03-01-2025,Outpatient,Obstetrics & Gynecology,Prenatal Visit,Z34.80,,,,Completed,Yes
+ENC068447,PAT000055,PRO00021,07-03-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC037476,PAT000056,PRO00716,29-01-2025,Outpatient,Oncology,Lung Cancer,C34.90,,,,Completed,No
+ENC014102,PAT000057,PRO00481,01-02-2025,Outpatient,Orthopedics,Knee Pain,M25.561,,,,Completed,No
+ENC027190,PAT000058,PRO00880,10-01-2025,Inpatients,Obstetrics & Gynecology,Prenatal Visit,Z34.80,Maternity,12-01-2025,2.0,Completed,Yes
+ENC015325,PAT000059,PRO00790,03-03-2025,Inpatients,Pediatrics,Fever,R50.9,,06-03-2025,3.0,Completed,No
+ENC013235,PAT000060,PRO00052,28-02-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC050007,PAT000060,PRO00840,17-03-2025,Inpatients,Pediatrics,Routine Checkup,Z00.129,Newborn,20-03-2025,3.0,Completed,No
+ENC051932,PAT000061,PRO00033,07-01-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC048796,PAT000062,PRO00053,30-01-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC060468,PAT000063,PRO00706,15-03-2025,Outpatient,Nephrology,CKD,N18.9,,,,Completed,No
+ENC059153,PAT000064,PRO00481,28-01-2025,Inpatients,Orthopedics,Knee Pain,M25.561,,31-01-2025,3.0,Completed,No
+ENC011407,PAT000065,PRO00858,09-03-2025,Outpatient,Obstetrics & Gynecology,Prenatal Visit,Z34.80,,,,Completed,No
+ENC012735,PAT000066,PRO00983,30-01-2025,Inpatients,Anesthesiology,Pain Management,G89.29,,01-02-2025,2.0,Completed,No
+ENC026466,PAT000067,PRO00649,26-03-2025,Outpatient,Nephrology,Hematuria,R31.9,,,,Completed,No
+ENC052458,PAT000067,PRO00081,23-03-2025,Inpatients,Internal Medicine,Hypertension Management,I10,,26-03-2025,3.0,Completed,No
+ENC053951,PAT000067,PRO00056,02-01-2025,Emergency,Emergency Department,Severe Chest Pain,R07.9,Emergency,,,Completed,No
+ENC058611,PAT000068,PRO01453,04-01-2025,Inpatients,Psychiatry / Behavioral Health,Insomnia,G47.00,Trauma,07-01-2025,3.0,Completed,Yes
+ENC063184,PAT000068,PRO00035,25-03-2025,Emergency,Emergency Department,Accidental Injury,S09.90XA,Emergency,,,Completed,No
+ENC010445,PAT000069,PRO00861,18-02-2025,Telehealth,Obstetrics & Gynecology,Prenatal Visit,Z34.80,,,,Completed,No
+ENC004327,PAT000070,PRO00892,05-02-2025,Outpatient,Obstetrics & Gynecology,Pelvic Pain,R10.2,,,,Completed,No
+ENC066515,PAT000070,PRO00045,03-02-2025,Emergency,Emergency Department,Sudden Breathing Issue,R06.02,Emergency,,,Completed,No
+ENC032592,PAT000071,PRO00888,08-02-2025,Outpatient,Obstetrics & Gynecology,Prenatal Visit,Z34.80,,,,Completed,No
+ENC030388,PAT000072,PRO00907,21-01-2025,Inpatients,Obstetrics & Gynecology,Prenatal Visit,Z34.80,Maternity,23-01-2025,2.0,Completed,No
+ENC068586,PAT000073,PRO01374,23-01-2025,Outpatient,Infectious Disease,HIV Follow-up,B20,,,,Completed,Yes
+ENC044921,PAT000074,PRO00118,16-03-2025,Inpatients,Internal Medicine,Hypertension Management,I10,,18-03-2025,2.0,Completed,No
+ENC061324,PAT000075,PRO00781,27-02-2025,Inpatients,Oncology,Lung Cancer,C34.90,,02-03-2025,3.0,Completed,No
+ENC065132,PAT000075,PRO01370,13-03-2025,Inpatients,Infectious Disease,HIV Follow-up,B20,,16-03-2025,3.0,Completed,No
+ENC055883,PAT000076,PRO00637,12-02-2025,Inpatients,Gastroenterology,IBS,K58.9,,15-02-2025,3.0,Completed,Yes
+ENC041648,PAT000077,PRO00769,20-03-2025,Outpatient,Oncology,Cancer Follow-up,C50.919,,,,Completed,No
+ENC059061,PAT000078,PRO00808,24-03-2025,Outpatient,Pediatrics,Fever,R50.9,,,,Completed,No
+ENC002738,PAT000079,PRO00900,08-02-2025,Inpatients,Obstetrics & Gynecology,Prenatal Visit,Z34.80,Maternity,10-02-2025,2.0,Completed,No
+ENC039328,PAT000080,PRO00752,19-02-2025,Outpatient,Oncology,Cancer Follow-up,C50.919,,,,Completed,No
+ENC066869,PAT000081,PRO01361,19-01-2025,Inpatients,Infectious Disease,HIV Follow-up,B20,,21-01-2025,2.0,Completed,No
+ENC067649,PAT000082,PRO00399,07-03-2025,Inpatients,Neurology,Migraine,G43.909,,10-03-2025,3.0,Completed,No
+ENC060850,PAT000083,PRO01488,11-03-2025,Inpatients,Psychiatry / Behavioral Health,Insomnia,G47.00,Trauma,14-03-2025,3.0,Completed,No
+ENC041887,PAT000084,PRO00538,01-01-2025,Outpatient,General Surgery,Gallbladder Pain,K82.9,,,,Completed,No

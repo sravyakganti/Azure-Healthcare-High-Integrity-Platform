@@ -1,0 +1,64 @@
+# =============================================================================
+# terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in your actual values.
+# NEVER commit terraform.tfvars to source control — it contains secrets.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Required — Azure Identity
+# ---------------------------------------------------------------------------
+subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+tenant_id       = "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy"
+
+# ---------------------------------------------------------------------------
+# Project Metadata
+# ---------------------------------------------------------------------------
+project_name = "healthcare-platform"
+environment  = "dev"
+location     = "East US"
+
+# Optional: override generated resource group name
+# resource_group_name = "my-custom-rg-name"
+resource_group_name = ""
+
+# ---------------------------------------------------------------------------
+# Tags
+# ---------------------------------------------------------------------------
+tags = {
+  Project     = "healthcare-platform"
+  Environment = "dev"
+  ManagedBy   = "Terraform"
+  Owner       = "DataEngineering"
+  CostCenter  = "Healthcare-IT"
+  Team        = "PlatformEngineering"
+}
+
+# ---------------------------------------------------------------------------
+# Storage
+# ---------------------------------------------------------------------------
+adls_account_tier = "Standard"
+adls_replication  = "LRS"
+
+# ---------------------------------------------------------------------------
+# Key Vault
+# ---------------------------------------------------------------------------
+key_vault_sku = "standard"
+
+# ---------------------------------------------------------------------------
+# Synapse Analytics
+# ---------------------------------------------------------------------------
+synapse_sql_admin_login    = "sqladminuser"
+synapse_sql_admin_password = "CHANGE_ME_Str0ngP@ssword!"
+
+# ---------------------------------------------------------------------------
+# Synapse Spark Pool
+# ---------------------------------------------------------------------------
+spark_pool_node_size            = "Small"
+spark_pool_min_nodes            = 1
+spark_pool_max_nodes            = 3
+spark_auto_pause_delay_minutes  = 15
+
+# ---------------------------------------------------------------------------
+# Monitoring
+# ---------------------------------------------------------------------------
+log_analytics_retention_days = 30

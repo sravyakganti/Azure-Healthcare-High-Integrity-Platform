@@ -1,0 +1,101 @@
+lab_id,encounter_id,test_name,test_code,specimen_type,test_result,units,normal_range,test_date,status
+LAB010,ENC000003,CT scan of pelvis without contrast,TEST001,Imaging,Normal,,,18-01-2025,Preliminary
+LAB010,ENC000004,"Chest X-ray, 2 views",TEST002,Imaging,Abnormal,,,21-03-2025,Preliminary
+LAB001,ENC000004,Collection of venous blood by venipuncture,TEST003,Blood,Preliminary,mg/dL,,21-03-2025,Preliminary
+LAB010,ENC000006,"Chest X-ray, 2 views",TEST002,Imaging,Abnormal,,,05-01-2025,Final
+LAB011,ENC000006,"Electrocardiogram, complete",TEST004,Imaging,Normal,,,05-01-2025,Preliminary
+LAB001,ENC000006,Collection of venous blood by venipuncture,TEST003,Blood,Normal,mg/dL,,05-01-2025,Final
+LAB001,ENC000007,Collection of venous blood by venipuncture,TEST003,Blood,Abnormal,mg/dL,,10-02-2025,Preliminary
+LAB012,ENC000007,"Ultrasound, pregnant uterus, first trimester",TEST005,Unknown,Normal,,,10-02-2025,Final
+LAB011,ENC000012,"Electrocardiogram, complete",TEST004,Imaging,Normal,,,03-03-2025,Final
+LAB010,ENC000013,"CT abdomen and pelvis, no contrast",TEST006,Imaging,Abnormal,,,25-02-2025,Final
+LAB002,ENC000014,"Glucose; quantitative, blood",TEST007,Blood,Preliminary,mg/dL,70-99 mg/dL,28-02-2025,Final
+LAB004,ENC000014,Lipid panel,TEST008,Blood,Abnormal,U/L,,28-02-2025,Final
+LAB010,ENC000015,CT scan of head or brain without contrast,TEST009,Imaging,Preliminary,,,02-03-2025,Final
+LAB011,ENC000016,"Electrocardiogram, complete",TEST004,Imaging,Abnormal,,,29-01-2025,Preliminary
+LAB010,ENC000017,CT scan of head or brain without contrast,TEST009,Imaging,Abnormal,,,11-02-2025,Preliminary
+LAB001,ENC000018,Collection of venous blood by venipuncture,TEST003,Blood,Abnormal,mg/dL,,06-01-2025,Pending
+LAB004,ENC000018,Lipid panel,TEST008,Blood,Preliminary,U/L,,06-01-2025,Final
+LAB010,ENC000019,"Chest X-ray, 2 views",TEST002,Imaging,Normal,,,23-02-2025,Pending
+LAB006,ENC000024,"Urinalysis, automated, with microscopy",TEST010,Unknown,Preliminary,,,28-02-2025,Final
+LAB004,ENC000024,Lipid panel,TEST008,Blood,Normal,U/L,,28-02-2025,Final
+LAB010,ENC000026,CT abdomen and pelvis with contrast,TEST011,Imaging,Preliminary,,,21-03-2025,Preliminary
+LAB013,ENC000029,"CT colonography, screening",TEST012,Imaging,Preliminary,,,12-02-2025,Final
+LAB006,ENC000032,"Urinalysis, non-automated, with microscopy",TEST013,Unknown,Preliminary,,,13-01-2025,Final
+LAB010,ENC000035,CT scan of head or brain without contrast,TEST009,Imaging,Normal,,,10-03-2025,Pending
+LAB010,ENC000035,"X-ray of skull, complete",TEST014,Imaging,Normal,,,10-03-2025,Preliminary
+LAB011,ENC000036,"Electrocardiogram, complete",TEST004,Imaging,Abnormal,,,27-03-2025,Preliminary
+LAB010,ENC000036,"Chest X-ray, 2 views",TEST002,Imaging,Normal,,,27-03-2025,Final
+LAB008,ENC000038,"Strep test, rapid antigen detection",TEST015,Imaging,Normal,,,22-03-2025,Final
+LAB010,ENC000039,"Chest X-ray, 2 views",TEST002,Imaging,Preliminary,,,29-03-2025,Preliminary
+LAB013,ENC000040,"Laparoscopy, surgical; with fulguration of lesions",TEST016,Unknown,Preliminary,,,04-02-2025,Preliminary
+LAB014,ENC000040,"MRI pelvis, without contrast",TEST017,Imaging,Abnormal,,,04-02-2025,Final
+LAB010,ENC000040,"Pelvic ultrasound, non-obstetric",TEST018,Unknown,Abnormal,,,04-02-2025,Preliminary
+LAB008,ENC000041,Fecal occult blood test,TEST019,Blood,Normal,mg/dL,,21-01-2025,Preliminary
+LAB014,ENC000042,"Endometrial biopsy, without dilation and curettage",TEST020,Tissue,Abnormal,,,15-02-2025,Final
+LAB005,ENC000042,Estradiol (E2) lab test,TEST021,Unknown,Preliminary,,,15-02-2025,Preliminary
+LAB012,ENC000042,Transvaginal pelvic ultrasound,TEST022,Unknown,Normal,,,15-02-2025,Pending
+LAB004,ENC000043,Lipid panel,TEST008,Blood,Preliminary,U/L,,22-02-2025,Pending
+LAB001,ENC000043,Collection of venous blood by venipuncture,TEST003,Blood,Normal,mg/dL,,22-02-2025,Pending
+LAB013,ENC000044,"Laparoscopy, surgical; with fulguration of lesions",TEST016,Unknown,Normal,,,07-01-2025,Final
+LAB014,ENC000045,MRI pelvis with contrast,TEST023,Imaging,Preliminary,,,19-01-2025,Preliminary
+LAB002,ENC000047,Basic metabolic panel,TEST024,Blood,Normal,U/L,,30-01-2025,Preliminary
+LAB010,ENC000048,CT scan of pelvis without contrast,TEST001,Imaging,Abnormal,,,04-01-2025,Final
+LAB013,ENC000049,"Laparoscopy, surgical; with fulguration of lesions",TEST016,Unknown,Preliminary,,,08-02-2025,Final
+LAB010,ENC000053,"Pelvic ultrasound, non-obstetric",TEST018,Unknown,Normal,,,13-02-2025,Preliminary
+LAB012,ENC000054,"Ultrasound, pregnant uterus, first trimester",TEST005,Unknown,Abnormal,,,16-01-2025,Final
+LAB006,ENC000054,"Urinalysis, non-automated, with microscopy",TEST013,Unknown,Preliminary,,,16-01-2025,Final
+LAB013,ENC000056,"Colonoscopy, diagnostic",TEST025,Unknown,Preliminary,,,21-01-2025,Preliminary
+LAB013,ENC000056,"CT colonography, screening",TEST012,Imaging,Abnormal,,,21-01-2025,Pending
+LAB001,ENC000058,Collection of venous blood by venipuncture,TEST003,Blood,Normal,mg/dL,,26-02-2025,Final
+LAB010,ENC000059,CT scan of head or brain without contrast,TEST009,Imaging,Preliminary,,,26-02-2025,Final
+LAB010,ENC000060,"X-ray of skull, complete",TEST014,Imaging,Normal,,,02-03-2025,Pending
+LAB010,ENC000061,"CT scan, thorax; with contrast",TEST026,Imaging,Preliminary,,,26-01-2025,Final
+LAB008,ENC000065,"Strep test, rapid antigen detection",TEST015,Imaging,Normal,,,28-03-2025,Pending
+LAB001,ENC000065,Collection of venous blood by venipuncture,TEST003,Blood,Abnormal,mg/dL,,28-03-2025,Preliminary
+LAB001,ENC000065,Complete blood count (CBC) with differential,TEST027,Blood,Preliminary,mg/dL,4.5-11.0 x10^3/uL,28-03-2025,Pending
+LAB013,ENC000066,"CT colonography, screening",TEST012,Imaging,Preliminary,,,18-01-2025,Preliminary
+LAB013,ENC000066,"Colonoscopy, diagnostic",TEST025,Unknown,Abnormal,,,18-01-2025,Final
+LAB009,ENC000066,"Fecal occult blood test, immunoassay",TEST028,Blood,Preliminary,mg/dL,,18-01-2025,Preliminary
+LAB001,ENC000068,Hemoglobin A1C test,TEST029,Unknown,Preliminary,,,23-02-2025,Preliminary
+LAB006,ENC000068,"Urinalysis, non-automated, without microscopy",TEST030,Unknown,Normal,,,23-02-2025,Final
+LAB002,ENC000072,Creatinine; blood,TEST031,Blood,Abnormal,mg/dL,,22-02-2025,Preliminary
+LAB002,ENC000075,Basic metabolic panel,TEST024,Blood,Abnormal,U/L,,08-03-2025,Pending
+LAB006,ENC000076,"Urinalysis, non-automated, with microscopy",TEST013,Unknown,Normal,,,05-01-2025,Preliminary
+LAB010,ENC000080,"CT abdomen and pelvis, no contrast",TEST006,Imaging,Preliminary,,,07-02-2025,Final
+LAB001,ENC000081,"Complete CBC, automated",TEST032,Blood,Preliminary,mg/dL,4.5-11.0 x10^3/uL,09-01-2025,Pending
+LAB010,ENC000082,CT scan of head or brain without contrast,TEST009,Imaging,Normal,,,08-01-2025,Final
+LAB008,ENC000089,"Culture, bacterial; any other source",TEST033,Imaging,Preliminary,,,24-01-2025,Pending
+LAB012,ENC000090,Transvaginal pelvic ultrasound,TEST022,Unknown,Preliminary,,,18-03-2025,Final
+LAB005,ENC000090,Estradiol (E2) lab test,TEST021,Unknown,Abnormal,,,18-03-2025,Final
+LAB014,ENC000090,"Endometrial biopsy, without dilation and curettage",TEST020,Tissue,Preliminary,,,18-03-2025,Final
+LAB014,ENC000092,"MRI pelvis, without contrast",TEST017,Imaging,Preliminary,,,12-02-2025,Final
+LAB013,ENC000092,"Laparoscopy, surgical; with fulguration of lesions",TEST016,Unknown,Abnormal,,,12-02-2025,Preliminary
+LAB010,ENC000094,"Screening mammography, bilateral",TEST034,Unknown,Preliminary,,,26-02-2025,Pending
+LAB010,ENC000096,CT scan of head or brain without contrast,TEST009,Imaging,Normal,,,02-01-2025,Final
+LAB002,ENC000099,Creatinine; blood,TEST031,Blood,Normal,mg/dL,,22-01-2025,Pending
+LAB010,ENC000106,"Chest X-ray, two views",TEST035,Imaging,Normal,,,31-01-2025,Final
+LAB010,ENC000107,"CT scan, maxillofacial without contrast",TEST036,Imaging,Normal,,,29-03-2025,Final
+LAB006,ENC000108,"Urinalysis, non-automated, with microscopy",TEST013,Unknown,Preliminary,,,17-03-2025,Final
+LAB001,ENC000110,Collection of venous blood by venipuncture,TEST003,Blood,Preliminary,mg/dL,,18-03-2025,Preliminary
+LAB010,ENC000114,"X-ray of skull, complete",TEST014,Imaging,Normal,,,21-03-2025,Preliminary
+LAB010,ENC000114,CT scan of head or brain without contrast,TEST009,Imaging,Abnormal,,,21-03-2025,Final
+LAB002,ENC000115,Basic metabolic panel,TEST024,Blood,Abnormal,U/L,,15-02-2025,Preliminary
+LAB006,ENC000116,"Urinalysis, non-automated, with microscopy",TEST013,Unknown,Abnormal,,,12-02-2025,Pending
+LAB010,ENC000120,CT scan of head or brain without contrast,TEST009,Imaging,Abnormal,,,30-01-2025,Final
+LAB006,ENC000123,"Urinalysis, automated, with microscopy",TEST010,Unknown,Preliminary,,,12-01-2025,Preliminary
+LAB001,ENC000126,Collection of venous blood by venipuncture,TEST003,Blood,Abnormal,mg/dL,,23-01-2025,Final
+LAB011,ENC000126,"Electrocardiogram, complete",TEST004,Imaging,Normal,,,23-01-2025,Final
+LAB001,ENC000128,Complete blood count (CBC) with differential,TEST027,Blood,Normal,mg/dL,4.5-11.0 x10^3/uL,17-03-2025,Pending
+LAB008,ENC000129,"Strep test, rapid antigen detection",TEST015,Imaging,Preliminary,,,12-03-2025,Final
+LAB007,ENC000130,HIV-1 and HIV-2 antibody screening,TEST037,Unknown,Abnormal,,,08-02-2025,Final
+LAB010,ENC000131,CT scan of head or brain without contrast,TEST009,Imaging,Preliminary,,,17-02-2025,Final
+LAB013,ENC000132,"Laparoscopy, surgical; with fulguration of lesions",TEST016,Unknown,Preliminary,,,09-03-2025,Final
+LAB008,ENC000134,"Strep test, rapid antigen detection",TEST015,Imaging,Normal,,,28-03-2025,Preliminary
+LAB010,ENC000135,"CT scan, thorax; with contrast",TEST026,Imaging,Abnormal,,,04-01-2025,Preliminary
+LAB010,ENC000139,CT scan of head or brain without contrast,TEST009,Imaging,Normal,,,24-02-2025,Final
+LAB010,ENC000139,"X-ray of skull, complete",TEST014,Imaging,Normal,,,24-02-2025,Preliminary
+LAB011,ENC000140,"Electrocardiogram, complete",TEST004,Imaging,Abnormal,,,22-03-2025,Final
+LAB001,ENC000140,Collection of venous blood by venipuncture,TEST003,Blood,Preliminary,mg/dL,,22-03-2025,Final
+LAB005,ENC000143,Estradiol (E2) lab test,TEST021,Unknown,Abnormal,,,06-02-2025,Pending
+LAB014,ENC000143,"Endometrial biopsy, without dilation and curettage",TEST020,Tissue,Preliminary,,,06-02-2025,Final

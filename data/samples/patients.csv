@@ -1,0 +1,101 @@
+patient_id,first_name,last_name,dob,age,gender,ethnicity,insurance_type,marital_status,address,city,state,zip,phone,email,registration_date
+PAT000001,Danielle,Johnson,14-05-1940,85,Female,Asian,UHC,Married,32181 Johnson Course Apt. 389,Bakersfield,CA,93301.0,,danielle.johnson40@example.com,03-01-2025
+PAT000002,Anna,Baldwin,04-03-2010,15,Female,White,Aetna,Married,79402 Peterson Drives Apt. 511,Bakersfield,CA,93301.0,(615)759 407,anna.baldwin294@example.com,26-02-2025
+PAT000003,James,Jones,31-03-2021,4,Male,White,UHC,Married,1316 Chavez Village,Portland,OR,97035.0,(925)853 419,james.jones377@example.com,27-01-2025
+PAT000004,Veronica,Bowman,26-08-1976,48,Female,Hispanic,BCBS,Widowed/Divorced/Separated,503 Linda Locks,Seattle,WA,98101.0,,veronica.bowman653@example.com,26-01-2025
+PAT000005,Carl,Gentry,06-01-1942,83,Male,Hispanic,BCBS,Married,,,,,001 553 676 ,carl.gentry91@example.com,14-03-2025
+PAT000006,Brenda,Hurst,07-05-1992,33,Female,Hispanic,Humana,Single,3287 Katelyn Wall Apt. 226,Sacramento,CA,94203.0,+1 616 769 7,brenda.hurst969@example.com,11-01-2025
+PAT000007,Kelly,Moore,05-06-1939,86,Male,Asian,Medicaid,Widowed/Divorced/Separated,482 Monica Hills,Long Beach,CA,90802.0,+1 289 332 5,kelly.moore714@example.com,05-02-2025
+PAT000008,Natasha,Decker,18-03-1950,75,Male,White,Cigna,Unknown,03911 Cabrera Trace Apt. 278,Los Angeles,CA,90001.0,(848)796 383,natasha.decker77@example.com,12-02-2025
+PAT000009,Rachel,Hayes,10-09-1993,31,Male,White,Medicaid,Single,15098 Brianna Avenue,Seattle,WA,98101.0,603 910 5183,,21-01-2025
+PAT000010,Amber,Cummings,06-10-1949,75,Female,Asian,Aetna,Widowed/Divorced/Separated,76311 Gomez Loop Suite 010,San Francisco,CA,94101.0,(551)333 387,,13-02-2025
+PAT000011,Lindsey,Chase,21-05-1958,67,Male,Hispanic,Cigna,Married,80132 Tucker Forest,Long Beach,CA,90802.0,(502)660 647,lindsey.chase620@example.com,22-01-2025
+PAT000012,Tanya,Riley,08-10-1961,63,Female,White,Cigna,Married,500 Shaw Walk,Bakersfield,CA,93301.0,220.381.2191,tanya.riley358@example.com,10-02-2025
+PAT000013,Diane,Cunningham,25-01-2007,18,Female,Hispanic,Humana,Married,3534 Anderson Rue Suite 751,Portland,OR,97035.0,6794911838,diane.cunningham529@example.com,03-02-2025
+PAT000014,Nicole,Suarez,08-08-2007,17,Female,Asian,Aetna,Single,2784 Elizabeth Plaza Suite 124,San Jose,CA,95101.0,518 624 4935,nicole.suarez553@example.com,19-02-2025
+PAT000015,Tracy,Whitehead,18-08-2020,4,Female,White,Medicare,Married,64005 Dana Greens,Portland,OR,97035.0,(278)768 011,tracy.whitehead590@example.com,26-02-2025
+PAT000016,Angela,Jordan,11-05-2011,14,Male,White,Cigna,Married,5053 Elizabeth Knoll,San Jose,CA,95101.0,001 686 492 ,angela.jordan572@example.com,18-03-2025
+PAT000017,Jacqueline,Reyes,11-02-2000,25,Male,Asian,Humana,Married,3375 Hoover Well,San Francisco,CA,94101.0,730.836.5414,jacqueline.reyes697@example.com,07-03-2025
+PAT000018,Tina,Herrera,01-01-1938,87,Female,White,Humana,Married,42940 Candace Key,Los Angeles,CA,90001.0,001 556 798 ,tina.herrera235@example.com,11-02-2025
+PAT000019,Chad,Beck,15-05-2021,4,Male,Asian,Medicare,Married,,,,,,chad.beck536@example.com,02-02-2025
+PAT000020,Cindy,Alvarado,06-02-1991,34,Male,White,Medicaid,Widowed/Divorced/Separated,484 Nguyen Square,Dallas,TX,75001.0,682 636 6299,cindy.alvarado494@example.com,21-01-2025
+PAT000021,Russell,Carpenter,28-03-1969,56,Female,Hispanic,BCBS,Widowed/Divorced/Separated,7738 Leon Underpass Apt. 148,Los Angeles,CA,90001.0,+1 395 913 4,russell.carpenter110@example.com,10-02-2025
+PAT000022,Olivia,Johnston,28-11-2013,11,Male,White,Cigna,Married,6320 Kimberly Forges Apt. 870,Oakland,CA,94601.0,+1 731 972 7,,01-03-2025
+PAT000023,Lisa,Mcclain,28-02-1962,63,Female,White,Cigna,Single,,,,,(387)627 743,lisa.mcclain25@example.com,23-01-2025
+PAT000024,Joseph,Flores,22-02-2010,15,Female,White,Humana,Widowed/Divorced/Separated,23623 Robert Isle,Los Angeles,CA,90001.0,+1 876 903 6,,01-01-2025
+PAT000025,Sherri,Evans,18-02-1972,53,Female,Hispanic,Humana,Single,8893 Robinson Mews Suite 065,Dallas,TX,75001.0,+1 462 972 9,sherri.evans204@example.com,18-01-2025
+PAT000026,Brent,Gray,10-03-1984,41,Female,White,BCBS,Widowed/Divorced/Separated,,,,,975.256.4641,,14-03-2025
+PAT000027,Amber,Cooke,22-10-1959,65,Male,Hispanic,Medicare,Widowed/Divorced/Separated,,,,,(931)300 330,amber.cooke701@example.com,24-02-2025
+PAT000028,Stacie,Marshall,04-12-1990,34,Female,White,Medicaid,Single,2991 Tami Coves Apt. 496,Long Beach,CA,90802.0,(831)793 149,stacie.marshall333@example.com,07-01-2025
+PAT000029,William,Peterson,16-03-1988,37,Male,Asian,UHC,Married,1657 Ryan Street Suite 987,Fresno,CA,93701.0,869.745.3147,william.peterson968@example.com,03-01-2025
+PAT000030,Troy,Nguyen,18-06-2012,13,Female,Asian,Aetna,Married,,,,,535.845.4948,troy.nguyen965@example.com,17-02-2025
+PAT000031,Angela,Allen,27-05-1977,48,Female,White,UHC,Married,770 Kelly Lodge Apt. 495,Fresno,CA,93701.0,388.556.8557,angela.allen679@example.com,31-01-2025
+PAT000032,David,Herrera,03-07-1954,70,Male,White,UHC,Single,37498 Hooper Village,Portland,OR,97035.0,643.252.4082,,06-01-2025
+PAT000033,Angela,Terry,20-04-1951,74,Female,Hispanic,Aetna,Married,710 Harrison Mill,Fresno,CA,93701.0,620 347 1167,angela.terry939@example.com,25-01-2025
+PAT000034,David,Duran,06-05-2015,10,Male,White,Cigna,Married,,,,,+1 299 338 6,,16-03-2025
+PAT000035,Jared,Clark,07-04-1988,37,Male,White,Aetna,Unknown,32812 Ricky Spurs,San Diego,CA,92101.0,+1 574 803 4,jared.clark162@example.com,12-01-2025
+PAT000036,Amy,Holland,19-06-1952,73,Female,White,Aetna,Married,10249 Gonzales Mountain Suite 648,Sacramento,CA,94203.0,+1 677 219 0,amy.holland891@example.com,09-01-2025
+PAT000037,Jeremy,Craig,21-12-2015,9,Female,Asian,Medicaid,Single,490 Thomas Run,Long Beach,CA,90802.0,342.496.7175,jeremy.craig957@example.com,02-02-2025
+PAT000038,Robert,Simpson,06-04-1991,34,Female,White,Medicare,Married,071 King Crescent Suite 808,Long Beach,CA,90802.0,460.638.5977,robert.simpson840@example.com,12-02-2025
+PAT000039,Nicole,Washington,12-02-1990,35,Female,Asian,Medicare,Widowed/Divorced/Separated,932 Pierce Plaza,Phoenix,AZ,85001.0,(513)917 127,nicole.washington368@example.com,23-02-2025
+PAT000040,Duane,Lee,06-03-1982,43,Female,Hispanic,BCBS,Married,46584 Justin Hills,San Diego,CA,92101.0,001 897 927 ,duane.lee666@example.com,01-02-2025
+PAT000041,Molly,Pollard,15-12-1955,69,Male,White,UHC,Married,636 Louis Mountains,Phoenix,AZ,85001.0,001 366 927 ,molly.pollard49@example.com,02-01-2025
+PAT000042,Jennifer,Ortiz,23-08-2007,17,Female,White,BCBS,Married,74596 Melissa Walk,Las Vegas,NV,88901.0,+1 386 357 8,jennifer.ortiz270@example.com,13-02-2025
+PAT000043,Garrett,Evans,25-06-2015,10,Female,Hispanic,Aetna,Widowed/Divorced/Separated,50455 Thomas Pines,Phoenix,AZ,85001.0,(992)622 196,,14-02-2025
+PAT000044,Jonathan,Smith,24-01-1936,89,Male,White,BCBS,Married,8217 Huerta Hills Suite 474,Fresno,CA,93701.0,667.613.6959,jonathan.smith723@example.com,03-01-2025
+PAT000045,Tiffany,Barrett,20-09-1983,41,Female,Hispanic,Humana,Single,90974 Catherine Knoll Apt. 394,San Jose,CA,95101.0,+1 421 504 7,tiffany.barrett571@example.com,13-01-2025
+PAT000046,Kristin,Walter,16-01-2021,4,Female,Hispanic,Humana,Single,842 Sloan Orchard Suite 517,Oakland,CA,94601.0,623 368 5160,kristin.walter494@example.com,14-02-2025
+PAT000047,Miguel,Curry,24-07-1999,25,Female,Hispanic,Aetna,Single,651 Thomas River Suite 931,San Francisco,CA,94101.0,+1 474 861 2,miguel.curry213@example.com,14-02-2025
+PAT000048,Nathan,Avery,13-06-2003,22,Female,Hispanic,Humana,Single,261 Gilbert Harbors Apt. 537,Long Beach,CA,90802.0,935.315.8506,nathan.avery745@example.com,06-03-2025
+PAT000049,Jason,Fowler,23-10-1971,53,Female,Hispanic,Medicaid,Single,53293 Maria Plaza,Las Vegas,NV,88901.0,493.435.2904,jason.fowler833@example.com,22-02-2025
+PAT000050,John,Thompson,12-11-1954,70,Female,White,Medicaid,Married,05395 Grant Center,Dallas,TX,75001.0,(368)911 775,john.thompson982@example.com,18-02-2025
+PAT000051,Jeffrey,Gilbert,25-08-1964,60,Male,White,Humana,Single,0076 Parks Overpass Suite 115,Oakland,CA,94601.0,+1 621 924 9,jeffrey.gilbert870@example.com,19-02-2025
+PAT000052,Catherine,Garcia,20-02-1940,85,Male,Asian,Aetna,Widowed/Divorced/Separated,836 Beasley Loop,San Diego,CA,92101.0,376 361 5654,catherine.garcia353@example.com,11-02-2025
+PAT000053,Colin,Rodgers,27-09-1980,44,Female,Hispanic,Medicaid,Married,098 Santiago Loop,San Francisco,CA,94101.0,,colin.rodgers565@example.com,04-02-2025
+PAT000054,Morgan,Pugh,05-12-1961,63,Female,Hispanic,Cigna,Widowed/Divorced/Separated,049 Bell Ports Apt. 273,Los Angeles,CA,90001.0,258 651 4936,morgan.pugh399@example.com,03-01-2025
+PAT000055,Henry,Park,02-07-1960,64,Female,Hispanic,Cigna,Widowed/Divorced/Separated,5022 Jones Streets Apt. 183,Seattle,WA,98101.0,(467)252 545,henry.park829@example.com,07-03-2025
+PAT000056,Christopher,Ramos,19-03-1944,81,Male,Hispanic,UHC,Widowed/Divorced/Separated,9764 Kari Crescent Suite 614,Long Beach,CA,90802.0,+1 497 684 0,christopher.ramos951@example.com,29-01-2025
+PAT000057,Mark,Smith,10-08-2004,20,Male,Hispanic,Humana,Single,26838 Jones Wall Apt. 607,Long Beach,CA,90802.0,859 269 6641,mark.smith61@example.com,01-02-2025
+PAT000058,George,Meza,17-12-1987,37,Female,Hispanic,Humana,Married,516 John Radial Suite 816,Portland,OR,97035.0,453 552 1818,george.meza268@example.com,10-01-2025
+PAT000059,Dwayne,Gonzalez,26-10-2010,14,Female,Asian,Aetna,Married,127 Webster Trace,San Diego,CA,92101.0,001 979 995 ,dwayne.gonzalez782@example.com,03-03-2025
+PAT000060,Kevin,Hill,15-02-2018,7,Female,Hispanic,Aetna,Married,8147 Johnson Land,San Diego,CA,92101.0,511 799 8679,kevin.hill726@example.com,28-02-2025
+PAT000061,Thomas,Hernandez,22-12-1988,36,Female,Asian,Aetna,Unknown,1518 Benjamin Station,San Jose,CA,95101.0,278.789.2554,,07-01-2025
+PAT000062,Mark,Grant,13-01-2018,7,Male,Asian,Humana,Widowed/Divorced/Separated,4925 Brandi Divide Suite 462,Anaheim,CA,92801.0,+1 214 786 5,mark.grant114@example.com,30-01-2025
+PAT000063,Henry,Lewis,15-07-1982,42,Male,Hispanic,Cigna,Single,32214 William Plains Apt. 592,Long Beach,CA,90802.0,+1 962 622 9,,15-03-2025
+PAT000064,Kaitlyn,Cole,18-01-1939,86,Female,White,Cigna,Widowed/Divorced/Separated,7359 Murray Haven,Seattle,WA,98101.0,001 368 386 ,kaitlyn.cole761@example.com,28-01-2025
+PAT000065,Christopher,Martin,08-08-1954,70,Female,Asian,Cigna,Widowed/Divorced/Separated,261 Lisa Keys Apt. 606,Anaheim,CA,92801.0,653.961.5305,christopher.martin860@example.com,09-03-2025
+PAT000066,Mariah,Blake,01-02-2010,15,Female,Hispanic,Cigna,Widowed/Divorced/Separated,9010 Lewis Drive Suite 143,Sacramento,CA,94203.0,,mariah.blake196@example.com,30-01-2025
+PAT000067,David,Allen,20-03-1959,66,Female,Hispanic,UHC,Married,17980 Jennifer Highway Suite 095,Fresno,CA,93701.0,296.821.8518,david.allen205@example.com,26-03-2025
+PAT000068,Theodore,Reid,20-02-2011,14,Male,White,Humana,Single,0515 Jessica Road Apt. 952,Oakland,CA,94601.0,3589527722,,04-01-2025
+PAT000069,Kelly,Williams,08-03-1984,41,Female,Asian,Medicaid,Married,54868 King Terrace,Bakersfield,CA,93301.0,+1 734 450 5,kelly.williams773@example.com,18-02-2025
+PAT000070,Heather,Richardson,20-01-1951,74,Female,Asian,Humana,Married,61692 Morris Common Suite 447,San Francisco,CA,94101.0,+1 362 875 7,heather.richardson983@example.com,05-02-2025
+PAT000071,William,Brady,20-03-1998,27,Female,Asian,Humana,Married,29702 Joel Rue,Dallas,TX,75001.0,(456)790 927,william.brady862@example.com,08-02-2025
+PAT000072,Leonard,Ramirez,26-01-1997,28,Female,White,Medicaid,Married,,,,,602 978 6814,leonard.ramirez65@example.com,21-01-2025
+PAT000073,Wendy,Mitchell,09-02-1951,74,Male,Hispanic,BCBS,Unknown,12172 Osborn Valleys Suite 518,Dallas,TX,75001.0,+1 544 422 5,wendy.mitchell358@example.com,23-01-2025
+PAT000074,Kristy,Johnson,31-05-1998,27,Female,White,Medicare,Married,8291 Kyle Stravenue Suite 866,Los Angeles,CA,90001.0,001 412 451 ,kristy.johnson981@example.com,16-03-2025
+PAT000075,Tammy,Reynolds,18-05-1983,42,Female,Hispanic,Aetna,Unknown,82422 Donovan Fork,Anaheim,CA,92801.0,(384)414 384,tammy.reynolds471@example.com,27-02-2025
+PAT000076,Shelly,Moore,02-02-1965,60,Male,White,UHC,Single,001 Stacy Trail Suite 396,San Diego,CA,92101.0,+1 207 484 4,shelly.moore226@example.com,12-02-2025
+PAT000077,Robert,Marshall,26-07-1987,37,Female,Hispanic,Medicaid,Married,255 Hester Curve Suite 881,Long Beach,CA,90802.0,537 414 7321,robert.marshall308@example.com,20-03-2025
+PAT000078,Mark,Lane,23-02-2017,8,Female,Asian,UHC,Single,27877 Jimenez Course Suite 873,San Francisco,CA,94101.0,695.200.4797,mark.lane650@example.com,24-03-2025
+PAT000079,Daniel,Anderson,05-08-1945,79,Female,White,Medicare,Widowed/Divorced/Separated,565 Richard Port Apt. 584,Fresno,CA,93701.0,468 378 4991,,08-02-2025
+PAT000080,Nathaniel,Hatfield,20-01-2000,25,Male,Asian,Cigna,Single,39868 Brandon Dam Suite 787,Oakland,CA,94601.0,(698)725 952,nathaniel.hatfield975@example.com,19-02-2025
+PAT000081,Maria,Patel,16-10-1986,38,Male,White,Humana,Married,0551 Silva Underpass Apt. 974,Portland,OR,97035.0,+1 299 330 9,,19-01-2025
+PAT000082,Andrew,Edwards,18-07-1991,33,Male,White,Medicare,Unknown,3689 Salas Street,Los Angeles,CA,90001.0,001 702 783 ,,07-03-2025
+PAT000083,Kelsey,Le,08-08-1954,70,Female,Hispanic,Medicaid,Single,733 Grant Fork Suite 437,Las Vegas,NV,88901.0,275 684 4198,kelsey.le338@example.com,11-03-2025
+PAT000084,Christian,Bradshaw,19-05-1936,89,Female,White,Humana,Single,733 Fitzpatrick Square Suite 219,Long Beach,CA,90802.0,001 393 430 ,christian.bradshaw475@example.com,01-01-2025
+PAT000085,Tamara,Spence,13-01-2010,15,Female,White,Medicare,Unknown,7734 Mitchell Circle,Los Angeles,CA,90001.0,001 219 238 ,tamara.spence433@example.com,29-01-2025
+PAT000086,Ashley,Rodriguez,18-03-2015,10,Male,White,Aetna,Unknown,7887 Melissa Mountain Suite 315,Los Angeles,CA,90001.0,(474)820 549,ashley.rodriguez959@example.com,22-03-2025
+PAT000087,Ronald,Murphy,17-11-1984,40,Male,White,Medicare,Married,122 Morris Gateway Apt. 463,San Francisco,CA,94101.0,945.649.9045,ronald.murphy24@example.com,16-01-2025
+PAT000088,Richard,Shaw,12-12-1950,74,Female,Hispanic,Cigna,Married,145 Jeffrey Dale Suite 279,San Jose,CA,95101.0,(768)378 339,richard.shaw531@example.com,24-02-2025
+PAT000089,Daniel,Poole,29-11-1986,38,Male,White,Medicaid,Widowed/Divorced/Separated,822 Bond Mills,Anaheim,CA,92801.0,439 871 8707,daniel.poole894@example.com,14-02-2025
+PAT000090,Anne,Hansen,01-02-2013,12,Male,White,UHC,Widowed/Divorced/Separated,064 Julie Prairie Apt. 065,Fresno,CA,93701.0,001 718 801 ,anne.hansen685@example.com,13-02-2025
+PAT000091,Molly,Knox,21-04-1959,66,Female,White,Humana,Married,82512 Rice Stream Apt. 004,Long Beach,CA,90802.0,386.286.3375,molly.knox203@example.com,20-03-2025
+PAT000092,Donna,Mendez,09-09-1990,34,Female,Hispanic,Cigna,Unknown,31190 Harper Squares,Oakland,CA,94601.0,4306673830,donna.mendez405@example.com,23-01-2025
+PAT000093,Lisa,Dennis,12-08-1936,88,Female,White,Medicare,Married,953 Walter Shore Apt. 644,San Diego,CA,92101.0,8897268705,lisa.dennis548@example.com,09-03-2025
+PAT000094,Robert,Hernandez,28-06-1963,61,Male,Hispanic,Humana,Single,87334 Linda Centers Suite 688,Fresno,CA,93701.0,(363)543 517,robert.hernandez675@example.com,06-01-2025
+PAT000095,Joseph,Nunez,06-01-2011,14,Male,White,Humana,Married,39837 Molly Isle,Seattle,WA,98101.0,603 831 7393,,15-02-2025
+PAT000096,Amanda,Howard,22-02-2013,12,Male,Asian,UHC,Married,8771 Gill Island Apt. 556,San Diego,CA,92101.0,8936204899,amanda.howard112@example.com,15-01-2025
+PAT000097,James,Hall,10-04-1965,60,Male,Hispanic,Medicare,Married,8547 Murray Street,Sacramento,CA,94203.0,(222)887 280,,14-01-2025
+PAT000098,Megan,Hall,09-12-1953,71,Male,Asian,Cigna,Married,38750 Hopkins Brook,Long Beach,CA,90802.0,6882600848,megan.hall944@example.com,18-02-2025
+PAT000099,Lisa,Craig,27-04-1947,78,Female,White,BCBS,Married,18233 Ochoa Grove,Oakland,CA,94601.0,(815)867 933,lisa.craig171@example.com,23-02-2025
+PAT000100,Thomas,Walsh,09-11-2011,13,Female,White,UHC,Single,76591 Jerry Ways,Oakland,CA,94601.0,001 297 540 ,,26-02-2025
