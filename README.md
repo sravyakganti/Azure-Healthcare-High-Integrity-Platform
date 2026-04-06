@@ -202,32 +202,44 @@ The `data/samples/` directory contains the first 100 rows of each source file. T
 
 ## System Verification & Azure Migration
 
-This section provides direct evidence that the pipeline ran end-to-end in a live Azure environment. All artefacts are in `docs/evidence/`.
+Live evidence that the full pipeline ran end-to-end against a real Azure environment. All supporting artefacts are in [`docs/evidence/`](docs/evidence/).
 
-### Azure Portal — Resource Group
+---
 
-> **Screenshot placeholder** — `docs/evidence/screenshots/azure_resource_group.png`  
-> *Shows all 19 Terraform-provisioned resources live in `healthcare-platform-dev-rg`.*
+### 1. Azure Data Lake Storage Gen2 — Medallion Containers
 
-### ADLS Gen2 — Medallion Containers
+![ADLS Gen2 Medallion Containers](docs/images/Azure_lake.png)
 
-> **Screenshot placeholder** — `docs/evidence/screenshots/adls_containers.png`  
-> *Shows the bronze / silver / gold / raw / configs containers in `hcpdevuvxb03`.*
+> **Fig 1.** Azure Portal view of the ADLS Gen2 storage account `hcpdevuvxb03` showing all five Medallion layer containers (`raw`, `bronze`, `silver`, `gold`, `configs`) provisioned by Terraform. Hierarchical Namespace (HNS) is enabled, confirming true Data Lake Gen2 semantics rather than standard blob storage.
 
-### Synapse Studio — Gold Layer Query
+---
 
-> **Screenshot placeholder** — `docs/evidence/screenshots/synapse_patient_360_query.png`  
-> *Shows a `SELECT TOP 10` on the Gold `patient_360` table — `first_name` column absent, `dob` as YYYY-MM-DD, `is_anomaly` column present.*
+### 2. SHA-256 PII Masking — Bronze vs Silver
 
-### PII Masking — Bronze vs Silver Diff
+![PII Masking Bronze vs Silver](docs/images/pii_masking.png)
 
-See [`docs/evidence/data_previews/`](docs/evidence/data_previews/) for side-by-side CSV samples:
+> **Fig 2.** Side-by-side comparison of the same patient record at the Bronze layer (raw PII visible: name, address, email) and the Silver layer (all six PII columns replaced with deterministic SHA-256 hashes; `registration_date` dropped entirely). The `dob` field is cast from a raw string to an ISO `date32` type (`YYYY-MM-DD`). Raw PII never reaches Silver, Gold, or Synapse.  
+> Full diff: [`docs/evidence/data_previews/`](docs/evidence/data_previews/)
+
+---
+
+### 3. Azure Synapse Analytics — Spark Pool Compute
+
+![Synapse Spark Pool](docs/images/Synpase_compute.png)
+
+> **Fig 3.** Azure Synapse Studio showing the `sparkpooluvxb03` Spark pool (Memory Optimized, 3–5 nodes, auto-pause 15 min) attached to workspace `healthcare-platform-dev-syn-uvxb03`. This pool is the distributed compute layer for large-scale transformations against the Silver and Gold ADLS containers.
+
+---
+
+### PII Masking Evidence Files
+
+See [`docs/evidence/data_previews/`](docs/evidence/data_previews/) for auditable CSV samples:
 
 | File | Description |
 |------|-------------|
-| `bronze_patients_sample.csv` | Raw data — real names, addresses, emails visible |
-| `silver_patients_sample.csv` | Post-masking — all PII replaced with SHA-256 hashes |
-| `README.md` | Column-by-column diff with hash verification snippet |
+| `bronze_patients_sample.csv` | 5-row raw extract — real names, addresses, emails present |
+| `silver_patients_sample.csv` | Same 5 patients post-masking — all PII replaced with SHA-256 hashes |
+| `README.md` | Column-by-column diff table + runnable Python hash verification snippet |
 
 ### Data Quality Audit
 
@@ -238,15 +250,15 @@ Full results in [`docs/evidence/quality_report.md`](docs/evidence/quality_report
 | Overall Silver completeness | **100%** (22 columns × 4 datasets) |
 | Duplicate primary keys | **0** (patients, encounters, claims) |
 | Referential integrity | **100%** across all 4 FK relationships |
-| Anomalies detected (billed > 0, paid = 0) | **4,403 patients (7.3%)** |
+| Anomalies detected (`billed > 0`, `paid = 0`) | **4,403 patients (7.3%)** |
 | `overall_payment_rate = 0` false positives | **0** (COALESCE → NULL) |
 | Denied claims identified | **5,998 (8.6%)** |
 | Negative billing amounts | **0** |
-| Raw PII columns in Silver/Gold | **0** |
+| Raw PII columns in Silver / Gold | **0** |
 
 ### Infrastructure Map
 
-Full resource inventory in [`docs/evidence/terraform_resource_map.md`](docs/evidence/terraform_resource_map.md) — lists all 19 Azure resources, their Terraform definitions, security configuration, and connectivity endpoints.
+Full 19-resource inventory in [`docs/evidence/terraform_resource_map.md`](docs/evidence/terraform_resource_map.md) — Terraform resource names, Azure names, security configuration, and all connectivity endpoints.
 
 ---
 
