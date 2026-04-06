@@ -228,6 +228,13 @@ class SilverTransformer:
         df = df.copy()
         logger.info(f"[lab_tests] Transforming {len(df):,} rows …")
 
+        # --- De-duplication (Phase 2: chaos simulator inserts exact-row duplicates) ---
+        before_dedup = len(df)
+        df = df.drop_duplicates()
+        dupes_removed = before_dedup - len(df)
+        if dupes_removed:
+            logger.info(f"[lab_tests] Removed {dupes_removed} exact duplicate rows")
+
         # --- Date parsing ---
         df["test_date"] = _parse_date(df["test_date"])
 

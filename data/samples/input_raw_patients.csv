@@ -1,0 +1,11 @@
+patient_id,first_name,last_name,dob,age,gender,ethnicity,insurance_type,marital_status,city,state,email,phone
+PAT000001,Danielle,Johnson,14-05-1940,85,Female,Asian,UHC,Married,Bakersfield,CA,danielle.johnson40@example.com,
+PAT000002,Anna,Baldwin,04-03-2010,15,Female,White,Aetna,Married,Bakersfield,CA,anna.baldwin294@example.com,(615)759 407
+PAT000003,James,Jones,31-03-2021,4,Male,White,UHC,Married,Portland,OR,james.jones377@example.com,(925)853 419
+PAT000004,Veronica,Bowman,26-08-1976,48,Female,Hispanic,BCBS,Widowed/Divorced/Separated,Seattle,WA,veronica.bowman653@example.com,
+PAT000005,Carl,Gentry,06-01-1942,83,Male,Hispanic,BCBS,Married,,,carl.gentry91@example.com,001 553 676
+PAT000006,Brenda,Hurst,07-05-1992,33,Female,Hispanic,Humana,Single,Sacramento,CA,brenda.hurst969@example.com,+1 616 769 7
+PAT000007,Kelly,Moore,05-06-1939,86,Male,Asian,Medicaid,Widowed/Divorced/Separated,Long Beach,CA,kelly.moore714@example.com,+1 289 332 5
+PAT000008,Natasha,Decker,18-03-1950,75,Male,White,Cigna,Unknown,Los Angeles,CA,natasha.decker77@example.com,(848)796 383
+PAT000009,Rachel,Hayes,10-09-1993,31,Male,White,Medicaid,Single,Seattle,WA,,603 910 5183
+PAT000010,Amber,Cummings,06-10-1949,75,Female,Asian,Aetna,Widowed/Divorced/Separated,San Francisco,CA,,(551)333 387

@@ -1,0 +1,11 @@
+billing_id,patient_id,insurance_provider,billed_amount,paid_amount,claim_status,denial_reason
+BILL000164,PAT023510,Humana,1329.63,0.0,Denied,Prior Authorization Required
+BILL000188,PAT044624,Humana,3057.64,0.0,Denied,Incorrect Coding (ICD/CPT/HCPCS)
+BILL000195,PAT024227,Aetna,614.34,0.0,Denied,Invalid Place of Service
+BILL000201,PAT033242,BCBS,2003.86,0.0,Denied,Patient Not Eligible on DOS (Date of Service)
+BILL000205,PAT036230,Humana,1303.53,0.0,Denied,Out-of-Network Provider
+BILL000001,PAT001464,BCBS,1971.52,1577.22,Paid,
+BILL000002,PAT025832,Medicare,1243.80,736.05,Paid,
+BILL000003,PAT055873,BCBS,4854.11,2676.12,Paid,
+BILL000004,PAT048558,BCBS,2638.21,1861.39,Paid,
+BILL000005,PAT018366,BCBS,1046.99,1046.99,Paid,

@@ -69,3 +69,7 @@ Thumbs.db
 .idea/
 .vscode/
 *.iml
+
+# Phase 2 — local-only artefacts (not for version control)
+data/backup_baseline_raw/
+data/tmp_azure_verify/

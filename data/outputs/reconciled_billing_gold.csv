@@ -1,0 +1,11 @@
+patient_id,age,gender,insurance_type,age_group,total_billed,total_paid,overall_payment_rate,denied_count,is_anomaly,note
+PAT046198,23,Male,BCBS,Adult,750.08,500.0,0.6666,0,False,SELF-HEALED: was Denied $0 -> Paid $500.00; is_anomaly corrected FALSE
+PAT000001,85,Female,UHC,Senior,3715.77,2021.94,0.5442,0,False,Baseline paid claim
+PAT000002,15,Female,Aetna,Pediatric,1317.12,880.29,0.6683,0,False,Baseline paid claim
+PAT000003,4,Male,UHC,Pediatric,689.65,474.16,0.6875,0,False,Baseline paid claim
+PAT000004,48,Female,BCBS,Adult,2905.95,1090.13,0.3751,1,False,Partial payment with 1 denied claim
+PAT000005,83,Male,BCBS,Senior,1061.56,1061.56,1.0000,0,False,Baseline paid claim (fully paid)
+PAT000006,33,Female,Humana,Adult,923.67,608.78,0.6591,0,False,Baseline paid claim
+PAT000007,86,Male,Medicaid,Senior,1765.54,1210.91,0.6859,0,False,Baseline paid claim
+PAT000008,75,Male,Cigna,Senior,507.03,392.70,0.7745,0,False,Baseline paid claim
+PAT000009,31,Male,Medicaid,Adult,695.67,359.37,0.5166,0,False,Baseline paid claim
