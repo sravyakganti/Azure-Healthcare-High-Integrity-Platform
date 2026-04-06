@@ -1,0 +1,6 @@
+patient_id,first_name,last_name,dob,age,gender,address,email,phone
+PAT000001,Danielle,Johnson,14-05-1940,85,Female,32181 Johnson Course Apt. 389,danielle.johnson40@example.com,
+PAT000002,Anna,Baldwin,04-03-2010,15,Female,79402 Peterson Drives Apt. 511,anna.baldwin294@example.com,(615)759 407
+PAT000003,James,Jones,31-03-2021,4,Male,1316 Chavez Village,james.jones377@example.com,(925)853 419
+PAT000004,Veronica,Bowman,26-08-1976,48,Female,503 Linda Locks,veronica.bowman653@example.com,
+PAT000005,Carl,Gentry,06-01-1942,83,Male,,carl.gentry91@example.com,001 553 676

@@ -200,6 +200,56 @@ The `data/samples/` directory contains the first 100 rows of each source file. T
 
 ---
 
+## System Verification & Azure Migration
+
+This section provides direct evidence that the pipeline ran end-to-end in a live Azure environment. All artefacts are in `docs/evidence/`.
+
+### Azure Portal — Resource Group
+
+> **Screenshot placeholder** — `docs/evidence/screenshots/azure_resource_group.png`  
+> *Shows all 19 Terraform-provisioned resources live in `healthcare-platform-dev-rg`.*
+
+### ADLS Gen2 — Medallion Containers
+
+> **Screenshot placeholder** — `docs/evidence/screenshots/adls_containers.png`  
+> *Shows the bronze / silver / gold / raw / configs containers in `hcpdevuvxb03`.*
+
+### Synapse Studio — Gold Layer Query
+
+> **Screenshot placeholder** — `docs/evidence/screenshots/synapse_patient_360_query.png`  
+> *Shows a `SELECT TOP 10` on the Gold `patient_360` table — `first_name` column absent, `dob` as YYYY-MM-DD, `is_anomaly` column present.*
+
+### PII Masking — Bronze vs Silver Diff
+
+See [`docs/evidence/data_previews/`](docs/evidence/data_previews/) for side-by-side CSV samples:
+
+| File | Description |
+|------|-------------|
+| `bronze_patients_sample.csv` | Raw data — real names, addresses, emails visible |
+| `silver_patients_sample.csv` | Post-masking — all PII replaced with SHA-256 hashes |
+| `README.md` | Column-by-column diff with hash verification snippet |
+
+### Data Quality Audit
+
+Full results in [`docs/evidence/quality_report.md`](docs/evidence/quality_report.md). Key headline metrics:
+
+| Metric | Result |
+|--------|--------|
+| Overall Silver completeness | **100%** (22 columns × 4 datasets) |
+| Duplicate primary keys | **0** (patients, encounters, claims) |
+| Referential integrity | **100%** across all 4 FK relationships |
+| Anomalies detected (billed > 0, paid = 0) | **4,403 patients (7.3%)** |
+| `overall_payment_rate = 0` false positives | **0** (COALESCE → NULL) |
+| Denied claims identified | **5,998 (8.6%)** |
+| Negative billing amounts | **0** |
+| Raw PII columns in Silver/Gold | **0** |
+
+### Infrastructure Map
+
+Full resource inventory in [`docs/evidence/terraform_resource_map.md`](docs/evidence/terraform_resource_map.md) — lists all 19 Azure resources, their Terraform definitions, security configuration, and connectivity endpoints.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
